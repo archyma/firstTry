@@ -19,9 +19,9 @@ struct Tree
 
 void CreateTree(Tree** root);
 Tree* List(int in, char* fio);
-void AddList(Tree* root, int in, char* fio); //добавление в дерево
-void DeleteTree(Tree** root, int key); //удалить дерево
-void DeleteAllTree(Tree* root); //полностью удалить
+void AddList(Tree* root, int in, char* fio); 
+void DeleteTree(Tree** root, int key); 
+void DeleteAllTree(Tree* root);
 void View1(Tree* root);
 void View2(Tree* root);
 void View3(Tree* root);
