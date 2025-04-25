@@ -25,7 +25,7 @@ void DeleteAllTree(Tree* root); //полностью удалить
 void View1(Tree* root);
 void View2(Tree* root);
 void View3(Tree* root);
-void Search(Tree* root, int key); //поиск в дереве
+void Search(Tree* root, int key); 
 void Ind(Tree* root, char* letter, int* kolvo);
 void MakeBalance(Tree** root, int n, int k, Person* arr);
 void KolvoElementov(Tree* root, int* kolvo);
